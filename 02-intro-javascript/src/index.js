@@ -1,12 +1,11 @@
-import {getHeroeById} from './bases/08-import'
+//const getImagenPromesa = () => 
+//new Promise( resolve => resolve('https://hola.com'))
 
-const promesa = new Promise( (resolve, reject) => {
-    //resolve significa promesa exitosa
-    //reject se ejecuta cuando falla algo 
-    setTimeout(() => {
-        getHeroeById(1)
-    },2000)
-}); //Son asincronas y se ejecutan después de que se ejecute todo lo sincrono 
 
-promesa.then( () => {
-});
+//getImagenPromesa().then(console.log);
+
+const getImagen = async() => {
+    
+}
+
+getImagen().then(console.log)
