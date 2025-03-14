@@ -1,0 +1,21 @@
+html, body {
+    background-color: rgb(31, 30, 30);
+    color: pink;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+    padding: 50px;
+    width: 100%;
+}
+
+button {
+    padding: 15px;
+    font-size: 1.3rem;
+    background-color: pink;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    color: rgb(31, 30, 30);
+
+}
